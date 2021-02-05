@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,900");
+
+@keyframes anima {
+    0%{
+        transform: translate(0, -50%);
+    }
+    100%{
+        transform: translate(-50%, -50%);
+    }
+}
+
+body
+{
+    margin: 0;
+    padding: 0;
+}
+
+section
+{
+    position: absolute;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(130deg, #ffffff 5%, #b10b5e 100%); /* cor da logo da faculdade */
+    color: rgb(190, 10, 121);
+    box-sizing: border-box;
+}
+
+
+
+.parte1 
+{
+    position: absolute;
+    overflow: hidden;
+    top: 50%;
+    white-space: nowrap;
+    font-size: 16em;
+    line-height: 220px;
+    font-family: "Poppins", sans-serif;
+    animation: anima 17s linear infinite;
+}
+
+.parte2 
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 50%;
+    background-image: linear-gradient(130deg, #640057 5%, #ff0080 100%);
+    overflow: hidden;
+    color:rgb(255, 255, 255); 
+    border-right: 5px solid #ffffff; /* linha do meio */
+}
+
